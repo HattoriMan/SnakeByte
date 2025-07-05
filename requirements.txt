@@ -1,0 +1,5 @@
+# Dependencies for Snake Terminal Game
+# Required Python version: >=3.7
+numpy==1.26.4
+pyfiglet==0.8.post1
+windows-curses==2.3.0; platform_system == "Windows"
