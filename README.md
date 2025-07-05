@@ -44,6 +44,14 @@ Install dependencies with:
 pip install -r requirements.txt
 ```
 
+2. **Pip installation:**
+
+You can install the package easily using pip:
+
+```bash
+pip install snakebyte
+```
+
 ---
 
 ### ▶️ Run the Game
@@ -56,6 +64,12 @@ Optional debug mode:
 
 ```bash
 python game.py --debug
+```
+
+Or if installed via pip (from anywhere):
+
+```bash
+snake
 ```
 
 ---
