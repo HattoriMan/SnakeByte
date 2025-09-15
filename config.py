@@ -1,12 +1,18 @@
+import os
+import appdirs
+
+user_data_dir = appdirs.user_data_dir("SnakeGame",appauthor="Snake")
+os.makedirs(user_data_dir, exist_ok=True)
+
 #game config
 # change number of rows and columns here note try not to make them greater than 20 and less than 10
 rows=15
 cols=30
 
 #note 
-# level==0 ==easy
-# level==1 ==medium
-# level==2 ==hard
+# level==0 ==>easy
+# level==1 ==>medium
+# level==2 ==>hard
 
 #in ms
 initial_frame_duration=[300,250,200]
@@ -33,9 +39,9 @@ min_snake_len=3
 levels=['Easy','Medium','Hard']
 
 #log config
-log_folder="logs"
+log_folder=os.path.join(user_data_dir,"logs")
 log_file="app.jsonl" #stores app logs
 score_file="score.json" #stores high score
 
 #key config
-key_config_path="key_config.json"
+key_config_path=os.path.join(user_data_dir,"key_config.json")
