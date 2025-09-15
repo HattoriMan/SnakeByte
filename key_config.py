@@ -1,7 +1,8 @@
 import curses
 import json
 import os
-from config import *
+from .config import key_config_path, key_config_default_path
+import shutil
 
 
 DEFAULT_KEYS = {
@@ -16,7 +17,11 @@ DEFAULT_KEYS = {
 
 KEY_BINDINGS = {}
 
-def load_key_config(path="key_config.json")->None:
+def ensure_user_key_config(user_key_path=key_config_path,default_key_path=key_config_default_path)->None:
+    if not os.path.exists(user_key_path):
+        shutil.copy(default_key_path,user_key_path)
+
+def load_key_config(path=key_config_path)->None:
     global KEY_BINDINGS
     KEY_BINDINGS.clear()
 
