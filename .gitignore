@@ -1,0 +1,21 @@
+# Ignore user-specific config
+key_config.json
+
+# Ignore logs
+log_folder/
+logs/
+*.log
+
+# Ignore build artifacts
+dist/
+*.egg-info/
+build/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folders (optional, if you use venv or similar)
+venv/
+.env/
+.envrc
