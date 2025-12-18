@@ -147,3 +147,5 @@ MIT License – use, modify, and distribute freely.
 ## 🙌 Acknowledgements
 
 Thanks to the Python community and open-source contributors for the tools and inspiration that made this project possible. Inspired by the classic Snake game we all loved.
+
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/snakebyte?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/snakebyte)
