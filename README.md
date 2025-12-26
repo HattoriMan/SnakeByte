@@ -1,5 +1,7 @@
 # 🐍 SnakeByte - Terminal Snake Game
 
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/snakebyte?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/snakebyte)
+
 A feature-rich, interactive Snake game playable entirely in your terminal! Built with Python and the `curses` module, this game supports color display, multiple levels, power-ups, score tracking, key remapping, and pause functionality.
 
 ---
@@ -147,5 +149,3 @@ MIT License – use, modify, and distribute freely.
 ## 🙌 Acknowledgements
 
 Thanks to the Python community and open-source contributors for the tools and inspiration that made this project possible. Inspired by the classic Snake game we all loved.
-
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/snakebyte?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads)](https://pepy.tech/projects/snakebyte)
