@@ -241,7 +241,7 @@ def main(stdscr:any)->None:
 
             if power_int in (0,1) and power_start_time[0]!=0:
                 if ((time.time()-power_start_time[0]) >= powerup_speed_change_time):
-                    power_func(1-power_int,mat,snake_queue,snake_set,level,frame_duration,score)
+                    power_func(1-power_int,mat,snake_queue,snake_set,level,frame_duration,score,highest_score)
                     power_start_time[0]=0
                     power_int=-1
                     power_loc[0]=None
